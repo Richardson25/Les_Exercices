@@ -20,7 +20,14 @@ function areEqual(x, y) {
     // Returns true if the two strings have the same length.
     // Otherwise it returns false.-----------------------------------No
     // Your code:
+    if(("str1").lenght == ("str2").lenght){
+        alert("true")
+    }else{
+        alert ("false")
+    }
  }
+
+ HaveTheSameLength(3, 4)
  
  function lessThanNinety(num) {
     // Returns true if the argument "num" is less than ninety.

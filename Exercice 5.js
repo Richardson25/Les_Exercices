@@ -1,8 +1,6 @@
 /*⚠️ NE MODIFIEZ PAS LE NOM DES DÉCLARATIONS ⚠️*/
 /*5️⃣ EXERCICE 05 5️⃣*/
 
-
-
 function isPositive(num) {
    // The function receives an integer. Returns as a result a string that indicates whether the number
    // is positive or negative.
@@ -34,6 +32,7 @@ addSymbolExclamation()
    // Returns "first name" and "last name" combined in the same string but separated by a space.
    // Example: ("Webster", "Fever") ---> "Fever Webster"
    // Your code:
+   return String;
    console.log("Richardson" , "Egalite")
 }
 combineNames()
@@ -69,11 +68,11 @@ alert(getRectangleArea(4, 5));
 }
 alert(trianglearea(8, 2))
  
-function FromEuroToDollar(euro) {
+function FromEuroToDollar(dollars) {
    // Suppose that 1 euro is equivalent to 1.20 dollars.
    // You must calculate the value received as an argument, converting it to dollars.
    // Your code:
-   let euroDollar = 1.2 * euro;
+   let euroDollar = 1.2 * dollars;
    return euroDollar;
 }
 alert(FromEuroToDollar(2))
